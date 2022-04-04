@@ -18,7 +18,6 @@ function getEmailDomain(emailAdres) {
 console.log(getEmailDomain("n.eeken@novi-education.nl", )+ " " + getEmailDomain("t.mellink@novi.nl") + " " + getEmailDomain("a.wiersma@outlook.com"))
 
 
-
 /* Opdracht  2 */
 // Schrijf een functie genaamd typeOfEmail, die een emailadres verwacht. De functie checkt of het emailadres een novi domein heeft (medewerker), een novi-education domein (student), of extern domein (zoals gmail of outlook)
 // ---- Verwachte uitkomsten:
@@ -59,7 +58,6 @@ console.log(domainOne, domainTwo, domainThree, domainFour)
 // checkEmailValidity("n.eekenanovi.nl") geeft false - want geen @
 // checkEmailValidity("n.eeken@novinl.") geeft false - want de punt mag niet als laatst
 // checkEmailValidity("tessmellink@novi,nl") geeft false - want er staat een komma in
-
 
 function checkEmailValidity(emailAdres) {
     const containsAt = emailAdres.includes("@");
