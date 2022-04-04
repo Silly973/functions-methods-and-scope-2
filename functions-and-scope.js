@@ -36,7 +36,6 @@ console.log(counts[8] + counts[9]);
 // cumLaude([8, 9, 4, 6, 10]) geeft 3
 
 
-
 const voorbeeld = {};
 function cumLaude() {
     for (const number of grades) {
@@ -47,6 +46,8 @@ function cumLaude() {
 }
 console.log(counts);
 // Kwam hier niet helemaal uit :-(
+
+
 
 
 
@@ -64,11 +65,13 @@ console.log(counts);
 
 // ---- Verwachte uitkomst: 6.642857142857143
 
+
 let averageGrade = 0;
 for (let i = 0; i < grades.length; i++) {
     averageGrade += grades[i]/ grades.length;
 }
 console.log(averageGrade);
+
 
 /* 2b: Omschrijven tot een herbruikbare functie */
 // Schrijf een functie genaamd averageGrade, die een array van cijfers verwacht (zoals grades) en het gemiddelde cijfer teruggeeft. Gebruik hiervoor jouw antwoord van 2a.
@@ -79,7 +82,6 @@ console.log(averageGrade);
 // averageGrade(grades) geeft 6.642857142857143
 // averageGrade([6, 4, 5]) geeft xxxx
 // averageGrade([8, 9, 4, 6, 10]) geeft xxxx
-
 
 const grade = [8, 9, 4, 6, 10];
 
@@ -94,8 +96,6 @@ if (average  === 6.642857142857143){
 }else{
     console.log("xxx")
 }
-
-
 
 
 /* 2c: Afronden op twee decimalen */
@@ -121,11 +121,12 @@ console.log(average.toFixed(2));
 for (let i=0; i < grades.length; i++);
 const highestGrades = grades.find((grade) =>{
     if (grade === 9){
-    return true;
+        return true;
     }
 
 })
 console.log(highestGrades);
+
 
 /* 3b: Omschrijven tot een herbruikbare functie */
 // Schrijf een functie genaamd highestGrade, die een array van cijfers verwacht (zoals grades) en het hoogste cijfer teruggeeft. Gebruik hiervoor jouw antwoord van 3a.
